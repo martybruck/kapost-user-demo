@@ -2,6 +2,8 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
+import UserTable from "./UserTable";
+
 function App() {
   return (
     <div className="App">
@@ -9,7 +11,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <div>
-        TODO
+        <UserTable />
       </div>
     </div>
   );
