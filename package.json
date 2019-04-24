@@ -18,7 +18,7 @@
     "eject": "react-scripts eject",
     "generate-mock-data": "node data/generateData",
     "prestart-mockapi": "npm run generate-mock-data",
-    "start-mockapi": "json-server --watch data/db.json --port 3002"
+    "start-mockapi": "json-server --watch data/db.json --middlewares data/apiVariance.js --port 3002"
   },
   "eslintConfig": {
     "extends": "react-app"
