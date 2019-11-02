@@ -26,5 +26,4 @@ it("showModal flag controls modal dialog", () => {
     expect(wrapper.exists('.modal')).toEqual(true);
     wrapper.setState({ showModal: false });
     expect(wrapper.exists('.modal')).toEqual(false);
-
 })
