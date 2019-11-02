@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
     "faker": "^4.1.0",
@@ -11,12 +12,14 @@
     "json-schema-faker": "^0.5.0-rc16",
     "json-server": "^0.14.2",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.0",
+    "react-table": "^6.10.3",
     "react-test-renderer": "^16.8.6"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --no-cache",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
