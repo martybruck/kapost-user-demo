@@ -1,7 +1,7 @@
 # user-table-exercise
 Front End Exercise for Interview Candidates
 
-##What I Did
+## What I Did
 
 - The first thing that I did was rip out the existing <table> implementation and replace it with a really nice react table 
 (react-table). I've used this before and it's very clean.  It allows paging, sorting, searching, 
