@@ -14,6 +14,7 @@ bug mentioned in the exercise.
 - To fix the bug in the exercise, I ended up having a filter input with a button to trigger the server-side action. 
 - Added a nicer icon and name to the tab
 - Added dialog box with retry button after 500 error
+- added a couple of unit tests to UserTable.test.js
 
 ## What I Didn't Do
 - It might have been nice to have a filter on the e-mail as well. Just wanted to keep it simple
